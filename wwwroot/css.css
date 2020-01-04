@@ -1,0 +1,168 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #e75149;
+}
+
+.content .draw-area{
+    color: green;
+    float: left;
+    width: 90%;
+    background: url(../wwwroot/images/bling.png) no-repeat;
+    height: 100%;
+}
+
+.content .draw-area .draw-round-top{
+    text-align: center;
+    margin-top: 77px;
+}
+
+.content .draw-area .draw-round-buttom{
+    height: 140px;
+    text-align: center;
+}
+
+.content .draw-area .draw-round-left{
+    display: inline-block;
+    text-align: left;
+    writing-mode: tb;
+}
+.content .draw-area .draw-round-show{
+    display: inline-block;
+    width: 1312px;
+    height: 110%;
+    word-break: break-all;
+    background-size: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.content .draw-area .draw-round-show-inner{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.content .draw-area .draw-round-right{
+    display: inline-block;
+    text-align: right;
+    writing-mode: tb;
+}
+
+.content .draw-area .draw-round-content{
+    text-align: center; 
+    height: 576px;
+}
+
+.content .draw-area .draw-round-cell{
+    display: inline-block;
+    height: 90px;
+    width: 140px;
+    background-color: blueviolet;
+    margin: 10px;
+    -moz-box-shadow:-6px -6px 13px #333333; 
+    -webkit-box-shadow:-6px -6px 13px #333333; 
+    box-shadow:-6px -6px 13px #333333;
+    border-radius:10px;
+}
+
+
+.content .draw-area .draw-round-people{
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.content .draw-area .draw-round-people .draw-round-people-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: chartreuse;
+    background: url(../wwwroot/people/v_joycemma.jpg) no-repeat;
+    background-size: 100%;
+}
+.content .draw-area .draw-round-people .draw-round-people-name{
+    width: 100px;
+    height: 30px; 
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.content .draw-count{
+    color: blue;
+    float: left;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+   
+}
+.content .draw-count .count-description{
+    background: url(../wwwroot/images/count_description.png) no-repeat;
+    background-size: 100%; 
+    width: 120px;
+    height: 40px;
+    margin: 20px 10px 0 10px;
+}
+.content .draw-count .count-kscount{
+    width: 100px;
+    height: 60px;
+    line-height: 72px;
+    font-size: 25px;
+    margin: 20px ;
+}
+.content .draw-count .count-kscount-cz{
+    background: url(../wwwroot/images/cz.png) no-repeat; 
+    background-size: 100%;
+}
+.content .draw-count .count-kscount-hl{
+    background: url(../wwwroot/images/hl.png) no-repeat; 
+    background-size: 100%;
+}
+.content .draw-count .count-kscount-kl{
+    background: url(../wwwroot/images/kl.png) no-repeat;
+    background-size: 100%;
+}
+.content .draw-count .count-kscount-zc{
+    background: url(../wwwroot/images/zc.png) no-repeat;
+    background-size: 100%;
+}
+.content .draw-count .count-kscount-fx{
+    background: url(../wwwroot/images/fx.png) no-repeat;
+    background-size: 100%;
+}
+.content .draw-count .count-kscount-jt{
+    background: url(../wwwroot/images/jt.png) no-repeat;
+    background-size: 100%;
+}
+.content .draw-count .count-kscount-xz{
+    background: url(../wwwroot/images/xz.png) no-repeat;
+    background-size: 100%;
+}
+.content .draw-count .count-kscount-zz{
+    background: url(../wwwroot/images/zz.png) no-repeat;
+    background-size: 100%;
+}
+.content .draw-count .count-kscount-jk{
+    background: url(../wwwroot/images/jk.png) no-repeat;
+    background-size: 100%;
+}
+.content .draw-count .count-kscount-jq{
+    background: url(../wwwroot/images/jq.png) no-repeat;
+    background-size: 100%;
+}
